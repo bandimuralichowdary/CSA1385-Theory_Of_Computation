@@ -1,0 +1,41 @@
+Automaton Simulator, v1.0
+dpda {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {461 345}
+	}
+	state {
+		coord {713 349}
+	}
+	state {
+		final {yes}
+		coord {914 351}
+	}
+	edge 0 0 {
+		transits {a}
+		offset {2.356194490192345}
+		action {push a}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {1.5707963267948966}
+		stacktop {a}
+		action {pop}
+	}
+	edge 0 1 {
+		transits {b}
+		offset {0.5235987755982988}
+		stacktop {a}
+		action {pop}
+	}
+	edge 1 2 {
+		transits {*}
+		offset {0.5235987755982988}
+	}
+	label {
+		text {13 PDA for "aabb"}
+		font {SansSerif 12 -}
+		coord {693 87}
+	}
+}
