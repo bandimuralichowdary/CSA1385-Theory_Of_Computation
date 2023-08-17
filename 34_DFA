@@ -1,0 +1,44 @@
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {393 356}
+	}
+	state {
+		coord {686 341}
+	}
+	state {
+		final {yes}
+		coord {979 333}
+	}
+	edge 0 1 {
+		transits {c}
+		offset {0.5235987755982988}
+	}
+	edge 0 0 {
+		transits {ab}
+		offset {2.356194490192345}
+	}
+	edge 1 2 {
+		transits {c}
+		offset {0.5235987755982988}
+	}
+	edge 2 2 {
+		transits {ab}
+		offset {2.356194490192345}
+	}
+	edge 2 1 {
+		transits {c}
+		offset {0.5235987755982988}
+	}
+	edge 1 1 {
+		transits {ab}
+		offset {2.3674299724503074}
+	}
+	label {
+		text {34 DFA to accept even number of c's over \{a,b,c\}}
+		font {SansSerif 12 -}
+		coord {645 161}
+	}
+}

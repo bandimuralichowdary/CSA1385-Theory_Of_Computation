@@ -1,0 +1,74 @@
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {383 274}
+	}
+	state {
+		final {yes}
+		coord {594 268}
+	}
+	edge 0 0 {
+		transits {a}
+		offset {2.2813346424815784}
+	}
+	edge 0 1 {
+		transits {b}
+		offset {0.5235987755982988}
+	}
+	edge 1 1 {
+		transits {ab}
+		offset {2.356194490192345}
+	}
+	label {
+		text {25 DFA to accept string start with a orb}
+		font {SansSerif 12 -}
+		coord {617 76}
+	}
+	label {
+		text { }
+		font {SansSerif 12 -}
+		coord {809 75}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {840 74}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {840 74}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {810 72}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {739 76}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {739 76}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {739 76}
+	}
+	label {
+		text {Input:}
+		font {SansSerif 12 -}
+		coord {819 408}
+	}
+	label {
+		text {a or aab or baa or bab}
+		font {SansSerif 12 -}
+		coord {828 424}
+	}
+}
