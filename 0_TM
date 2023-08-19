@@ -1,0 +1,116 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {491 237}
+	}
+	state {
+		coord {789 232}
+	}
+	state {
+		coord {1114 227}
+	}
+	state {
+		final {yes}
+		coord {486 457}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {}
+		offset {2.356194490192345}
+		direction {R}
+	}
+	edge 1 1 {
+		transits {ad}
+		offset {2.403777593469328}
+		direction {R}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {L}
+		output {d}
+	}
+	edge 2 2 {
+		transits {}
+		offset {2.356194490192345}
+		direction {R}
+	}
+	edge 2 2 {
+		transits {ad}
+		offset {2.356194490192345}
+		direction {L}
+	}
+	edge 2 0 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 0 3 {
+		transits {d}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {750 47}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {755 56}
+	}
+	label {
+		text {input: a^nb^n}
+		font {SansSerif 12 -}
+		coord {479 563}
+	}
+	label {
+		text {output : c^nd^n}
+		font {SansSerif 12 -}
+		coord {482 583}
+	}
+	label {
+		text {a,d:>}
+		font {SansSerif 12 -}
+		coord {750 162}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1063 145}
+	}
+	label {
+		text {a,d:<}
+		font {SansSerif 12 -}
+		coord {1064 156}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {708 52}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {713 130}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {729 49}
+	}
+	label {
+		text {0 TM to accept "a^nb^n"}
+		font {SansSerif 12 -}
+		coord {667 62}
+	}
+}

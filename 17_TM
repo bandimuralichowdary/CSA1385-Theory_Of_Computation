@@ -1,0 +1,117 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {354 210}
+	}
+	state {
+		coord {617 217}
+	}
+	state {
+		coord {818 218}
+	}
+	state {
+		coord {1089 203}
+	}
+	state {
+		final {yes}
+		coord {374 464}
+	}
+	state {
+		coord {621 454}
+	}
+	edge 5 5 {
+		transits {ab}
+		offset {-1.888838616359945}
+		direction {R}
+	}
+	edge 5 0 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {L}
+	}
+	edge 0 5 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {R}
+		output {d}
+	}
+	edge 0 4 {
+		transits {d}
+		offset {-0.30873207106109524}
+		direction {L}
+	}
+	edge 3 0 {
+		transits {c}
+		offset {6.923516918438441}
+		direction {R}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 1 2 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+	}
+	edge 2 3 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {L}
+	}
+	edge 3 2 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {L}
+	}
+	edge 2 2 {
+		transits {a}
+		offset {1.5544043524868913}
+		direction {L}
+		output {c}
+	}
+	edge 1 1 {
+		transits {ba}
+		offset {1.431356269703559}
+		direction {R}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {790 195}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {818 161}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {957 164}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {954 163}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {646 63}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {795 117}
+	}
+	label {
+		text {17 TM to accept string PALINDROME}
+		font {SansSerif 12 -}
+		coord {594 72}
+	}
+}
