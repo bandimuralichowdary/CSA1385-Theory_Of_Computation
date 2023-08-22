@@ -1,0 +1,117 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {284 356}
+	}
+	state {
+		coord {318 511}
+	}
+	state {
+		coord {601 173}
+	}
+	state {
+		coord {630 338}
+	}
+	state {
+		coord {622 502}
+	}
+	state {
+		final {yes}
+		coord {948 139}
+	}
+	state {
+		coord {303 184}
+	}
+	edge 2 2 {
+		transits {_}
+		offset {1.0966778962893937}
+		direction {R}
+	}
+	edge 2 5 {
+		transits {c}
+		offset {-0.3389162501511517}
+		direction {R}
+	}
+	edge 2 3 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 3 3 {
+		transits {ab}
+		offset {0.0893139929932222}
+		direction {L}
+	}
+	edge 4 3 {
+		transits {b}
+		offset {-0.4104064362640796}
+		direction {L}
+		output {_}
+	}
+	edge 1 4 {
+		transits {_}
+		offset {-0.5141359792456267}
+		direction {L}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {1.1263771168937977}
+		direction {R}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {-1.9547234431302194}
+		direction {R}
+	}
+	edge 0 1 {
+		transits {b}
+		offset {-0.8548457565161565}
+		direction {R}
+		output {_}
+	}
+	edge 0 6 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	edge 6 6 {
+		transits {b}
+		offset {2.5175696006130366}
+		direction {R}
+		output {b}
+	}
+	edge 6 6 {
+		transits {a}
+		offset {-0.31705575320914703}
+		direction {R}
+	}
+	edge 6 2 {
+		transits {_}
+		offset {0.9166811371797995}
+		direction {L}
+	}
+	edge 3 0 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {784 233}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {603 31}
+	}
+	label {
+		text {26 TM for PALINDROME "bbabb"}
+		font {SansSerif 12 -}
+		coord {602 27}
+	}
+}
