@@ -1,0 +1,157 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {360 155}
+	}
+	state {
+		coord {593 156}
+	}
+	state {
+		coord {838 149}
+	}
+	state {
+		coord {348 312}
+	}
+	state {
+		final {yes}
+		coord {749 319}
+	}
+	state {
+		coord {1038 150}
+	}
+	state {
+		coord {343 446}
+	}
+	state {
+		coord {344 571}
+	}
+	state {
+		coord {742 441}
+	}
+	state {
+		coord {746 569}
+	}
+	edge 0 1 {
+		transits {b}
+		offset {-0.4145275417199045}
+		direction {R}
+		output {d}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.496194251618928}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {ab}
+		offset {1.3258176636680326}
+		direction {R}
+	}
+	edge 1 2 {
+		transits {cd*}
+		offset {0.5235987755982988}
+		direction {L}
+	}
+	edge 2 5 {
+		transits {a}
+		offset {0.4619519768827726}
+		direction {L}
+		output {c}
+	}
+	edge 2 5 {
+		transits {b}
+		offset {-0.21303483069827883}
+		direction {L}
+		output {d}
+	}
+	edge 5 5 {
+		transits {ab}
+		offset {1.2587542052323633}
+		direction {L}
+	}
+	edge 0 3 {
+		transits {cd}
+		offset {0.5235987755982988}
+		direction {L}
+	}
+	edge 3 3 {
+		transits {c}
+		offset {2.5940304176497957}
+		direction {L}
+		output {a}
+	}
+	edge 3 3 {
+		transits {d}
+		offset {-0.5290304710796486}
+		direction {L}
+		output {b}
+	}
+	edge 3 6 {
+		transits {*}
+		offset {-0.8729076470711241}
+		direction {R}
+	}
+	edge 6 7 {
+		transits {b}
+		offset {-1.090841223180982}
+		direction {R}
+		output {d}
+	}
+	edge 7 7 {
+		transits {ab_}
+		offset {-1.98448554007376}
+		direction {R}
+	}
+	edge 7 9 {
+		transits {d}
+		offset {-0.44495819655390056}
+		direction {L}
+		output {_}
+	}
+	edge 9 9 {
+		transits {ab_}
+		offset {-0.8220309826214943}
+		direction {L}
+	}
+	edge 8 8 {
+		transits {ab_}
+		offset {0.6699715030305236}
+		direction {R}
+	}
+	edge 8 9 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 6 4 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 6 8 {
+		transits {a}
+		offset {0.5516870000924565}
+		direction {R}
+		output {c}
+	}
+	edge 9 6 {
+		transits {cd}
+		offset {0.11177517505495782}
+		direction {R}
+	}
+	edge 5 0 {
+		transits {cd}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	label {
+		text {18 TM for WW}
+		font {SansSerif 12 -}
+		coord {597 58}
+	}
+}
